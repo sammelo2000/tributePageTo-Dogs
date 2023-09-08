@@ -9,7 +9,7 @@
     width: 1200px;
     margin: 0px auto;
     justify-content: space-between;
-    margin-bottom:20px;
+    margin-bottom:50px;
     
 }
 
@@ -29,12 +29,14 @@
 }
 
 #first-section {
-    color: blue;
+    color: red;
     width: 1200px;
-    border:1x soild black;
+    
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+    height: 230px;
+    
     
 }
 
@@ -50,10 +52,48 @@
     width: 500px;
     background: url(images/alvan-nee-T-0EW-SEbsE-unsplash.jpg);
     background-size: cover;
+    height: 230px;
     
 }
 
 #Real-first-section {
     background: #c7c0f7;
     height: 400px;
+}
+
+#first-section-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+body{ 
+    margin: 0px;
+}
+
+#second-section {
+  background: #dbdea3;  
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width:1200px;
+   
+   border: 10px solid black;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.list-images {
+    width: 150px;
+    height: 187.5px;
+    
 }

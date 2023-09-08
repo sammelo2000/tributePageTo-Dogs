@@ -1,5 +1,6 @@
 .border {
     border: 2px solid red;
+   
 }
 
 #Hero {
@@ -8,13 +9,16 @@
     width: 1200px;
     margin: 0px auto;
     justify-content: space-between;
+    margin-bottom:20px;
+    
 }
 
 .logo-img {
     background: url("images/logo.jpg");
-    height: 200px;
-    width: 400px;
+    
+    width: 200px;
     background-size: cover;
+    
 }
 
 #Hero-nav {
@@ -22,4 +26,34 @@
     width: 300px;
     display: flex;
     justify-content: space-evenly;
+}
+
+#first-section {
+    color: blue;
+    width: 1200px;
+    border:1x soild black;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.first-section-information {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.first-section-image {
+    width: 500px;
+    background: url(images/alvan-nee-T-0EW-SEbsE-unsplash.jpg);
+    background-size: cover;
+    
+}
+
+#Real-first-section {
+    background: #c7c0f7;
+    height: 400px;
 }
